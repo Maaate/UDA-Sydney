@@ -145,6 +145,7 @@ body {
 
 .footer {
   margin-top: 10px;
+  text-align: center;
 }
 .lead-header {
   margin-top: 0px;
@@ -236,4 +237,46 @@ a, a:visited {
 }
 .instructor.none:after {
   background-position: 0px -458px
+}
+
+.ranks ul {
+  list-style-type: none;
+}
+.ranks ul li {
+  color: #878786;
+  font-family: "Univers W01";
+}
+.ranks h4.black {
+  color: black;
+}
+
+.ranks h4.blue {
+  color: blue;
+}
+
+.ranks h4.brown {
+  color: brown;
+}
+
+.ranks h4.green {
+  color: green;
+}
+.ranks h4.grey {
+  color: grey;
+}
+
+.ranks h4.orange {
+  color: orange;
+}
+
+.ranks h4.purple {
+  color: purple;
+}
+
+.ranks h4.red {
+  color: red;
+}
+
+.ranks h4.yellow {
+  color: yellow;
 }
