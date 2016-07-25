@@ -1,0 +1,118 @@
+/* line 15, /coding/projects/UDA/site/views/timetable.scss */
+.timetable {
+  color: #231f20;
+}
+/* line 17, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.header {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  height: 22px;
+}
+/* line 23, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.weekday {
+  width: 120px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  height: 20px;
+}
+/* line 33, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.classes {
+  font-size: 11px;
+  width: 116px;
+  float: left;
+  display: inline-block;
+}
+/* line 38, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.classes p.name {
+  margin-bottom: 0px;
+}
+/* line 41, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.classes p.time {
+  margin-bottom: 0px;
+}
+/* line 44, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.classes div {
+  margin-bottom: 5px;
+  position: relative;
+}
+/* line 50, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.classes div div {
+  position: absolute;
+  left: auto;
+  right: auto;
+  width: 116px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 63, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.nintey {
+  height: 90px;
+}
+/* line 67, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.one {
+  height: 60px;
+}
+/* line 71, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.fourty {
+  height: 53px;
+}
+/* line 75, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.half {
+  height: 40px;
+}
+/* line 79, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.jiu-jitsu {
+  background: #e7302a;
+  color: white;
+}
+/* line 84, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.privates {
+  background: #ececec;
+}
+/* line 88, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.kids {
+  background: #e1e01f;
+}
+/* line 92, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.fundamentals {
+  background: #ef736e;
+  color: white;
+}
+/* line 97, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.beginner {
+  background: #ec5d59;
+  color: white;
+}
+/* line 102, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.advanced {
+  background: #ea4944;
+  color: white;
+}
+/* line 107, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.no-gi {
+  background: #c6c6c6;
+}
+/* line 111, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.women-only {
+  background: #e6007e;
+  color: white;
+}
+/* line 116, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.thai-beginner {
+  background: #f0814c;
+  color: white;
+}
+/* line 121, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.thai-advanced {
+  background: #ee7033;
+  color: white;
+}
+/* line 126, /coding/projects/UDA/site/views/timetable.scss */
+.timetable div.open-mat {
+  background: #878786;
+  color: white;
+}

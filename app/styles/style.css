@@ -1,0 +1,683 @@
+/* Belt Colours */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=63be6a80-a2f4-4d15-8416-993837079485");
+@font-face {
+  font-family: "Univers W01_R4";
+  src: url("fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix");
+  src: url("fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix") format("eot"), url("fonts/1eaf27c0-f4de-4273-9f4c-1b3236ad2f3c.woff") format("woff"), url("fonts/9b913baf-b1f0-47d2-8c76-42f59650058f.ttf") format("truetype"), url("fonts/0abcce12-2274-4ee7-b6d5-0066b5f5f670.svg#0abcce12-2274-4ee7-b6d5-0066b5f5f670") format("svg");
+  font-weight: 400;
+  font-style: Regular;
+}
+
+@font-face {
+  font-family: "Univers W01_I4";
+  src: url("fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix");
+  src: url("fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix") format("eot"), url("fonts/34e6ea2e-62b2-49c9-b5e6-128fddfd9f6c.woff") format("woff"), url("fonts/01a871ba-586f-4d5e-8924-d4ec3b44f723.ttf") format("truetype"), url("fonts/5ebb44ef-5450-4b20-9612-66b2a127178b.svg#5ebb44ef-5450-4b20-9612-66b2a127178b") format("svg");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: "Univers W01_n2";
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix");
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix") format("eot"), url("fonts/609beecf-8d23-4a8c-bbf5-d22ee8db2fc9.woff") format("woff"), url("fonts/a6595b8d-d4a3-4f01-bf21-0b53617d4b1c.ttf") format("truetype"), url("fonts/1cd9ef2f-b358-4d39-8628-6481d9e1c8ce.svg#1cd9ef2f-b358-4d39-8628-6481d9e1c8ce") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Univers Next W04_B5";
+  src: url("fonts/89a581cf-ec83-47e4-8a11-201a6f3547fe.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers Next W04";
+  src: url("fonts/89a581cf-ec83-47e4-8a11-201a6f3547fe.eot?#iefix");
+  src: url("fonts/89a581cf-ec83-47e4-8a11-201a6f3547fe.eot?#iefix") format("eot"), url("fonts/1b7b489a-ec91-4d5e-b0dc-05ee846eb93a.woff") format("woff"), url("fonts/ce0c8ace-83c6-41d6-8332-efbcd4af3f88.ttf") format("truetype"), url("fonts/a0d25bc8-1bcd-4f5c-a4ce-6cd1ad418954.svg#a0d25bc8-1bcd-4f5c-a4ce-6cd1ad418954") format("svg");
+  font-weight: 500;
+  font-style: Bold Italic;
+}
+
+@font-face {
+  font-family: "Univers W01_n7";
+  src: url("fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix");
+  src: url("fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix") format("eot"), url("fonts/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff") format("woff"), url("fonts/091058d4-36b2-43f6-80d3-16c88e098061.ttf") format("truetype"), url("fonts/827d22bc-e38b-4ccf-8a21-1f9aaa76e402.svg#827d22bc-e38b-4ccf-8a21-1f9aaa76e402") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* line 75, /coding/projects/UDA/site/views/styles.scss */
+#header {
+  background-image: url("/images/header.png");
+  width: 960px;
+  height: 136px;
+}
+
+/* line 82, /coding/projects/UDA/site/views/styles.scss */
+body {
+  width: 960px;
+  margin: 0 auto;
+  color: #878786;
+  /* Helvetica/Arial-based sans serif stack */
+  font-family: "Univers W01";
+  font-weight: 500;
+  font-size: 10pt;
+}
+
+/* line 93, /coding/projects/UDA/site/views/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 97, /coding/projects/UDA/site/views/styles.scss */
+#page {
+  margin-top: 50px;
+}
+
+/* line 102, /coding/projects/UDA/site/views/styles.scss */
+h2 {
+  color: #e7302a;
+  font-size: 16pt;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Univers W01";
+  font-weight: 600;
+}
+
+/* line 112, /coding/projects/UDA/site/views/styles.scss */
+h3 {
+  color: #ee7033;
+  font-size: 12pt;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Univers W01";
+  font-weight: 600;
+}
+
+/* line 122, /coding/projects/UDA/site/views/styles.scss */
+h4 {
+  color: #ee7033;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100;
+}
+
+/* line 129, /coding/projects/UDA/site/views/styles.scss */
+.nav-links {
+  /*width: 66px;
+  padding-right: 41px;
+  float: left;*/
+  color: #231f20;
+}
+/* line 134, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 138, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  position: relative;
+}
+/* line 145, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul li ul {
+  display: none;
+}
+/* line 148, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul a:visited, .nav-links ul a {
+  color: #231f20;
+}
+/* line 150, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul li:hover ul {
+  z-index: 999;
+  display: block;
+  position: absolute;
+  left: 65px;
+  top: 0px;
+  /*background-color: transparentize($orange, 0.8);*/
+  background-color: #fce2d6;
+  width: 140px;
+}
+/* line 160, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul li:hover ul li a:visited {
+  color: #e7302a;
+}
+/* line 165, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul li.selected {
+  border-bottom: 2px solid #e7302a;
+}
+/* line 168, /coding/projects/UDA/site/views/styles.scss */
+.nav-links ul li.selected a {
+  color: #e7302a;
+}
+
+/* line 179, /coding/projects/UDA/site/views/styles.scss */
+a:visited, a {
+  color: #878786;
+}
+
+/* line 181, /coding/projects/UDA/site/views/styles.scss */
+#main {
+  margin-top: 46px;
+  min-height: 650px;
+  position: relative;
+}
+
+/* line 188, /coding/projects/UDA/site/views/styles.scss */
+#content {
+  width: 853px;
+  float: left;
+}
+/* line 191, /coding/projects/UDA/site/views/styles.scss */
+#content p.more {
+  color: #ee7033;
+}
+/* line 195, /coding/projects/UDA/site/views/styles.scss */
+#content .col-3 {
+  margin-right: 0px;
+  width: 284px;
+  float: left;
+}
+/* line 197, /coding/projects/UDA/site/views/styles.scss */
+#content .col-3 h2 {
+  padding-top: 30px;
+}
+/* line 205, /coding/projects/UDA/site/views/styles.scss */
+#content .col-3 p {
+  padding-right: 21px;
+}
+/* line 208, /coding/projects/UDA/site/views/styles.scss */
+#content .col-3 p:last-of-type {
+  /* padding-right: 0px; */
+}
+
+/* line 215, /coding/projects/UDA/site/views/styles.scss */
+.col-right {
+  float: right;
+  width: 475px;
+}
+/* line 219, /coding/projects/UDA/site/views/styles.scss */
+.col-right h3 {
+  text-transform: uppercase;
+}
+/* line 223, /coding/projects/UDA/site/views/styles.scss */
+.col-right strong {
+  text-transform: uppercase;
+  color: #ee7033;
+}
+
+/* line 232, /coding/projects/UDA/site/views/styles.scss */
+div.classes {
+  margin-right: 6px;
+}
+/* line 234, /coding/projects/UDA/site/views/styles.scss */
+div.classes span.class-name {
+  display: block;
+  color: #e7302a;
+}
+/* line 239, /coding/projects/UDA/site/views/styles.scss */
+div.classes span.instructor {
+  display: block;
+  color: #ee7033;
+}
+/* line 243, /coding/projects/UDA/site/views/styles.scss */
+div.classes p {
+  margin-top: 0px;
+}
+
+/* line 249, /coding/projects/UDA/site/views/styles.scss */
+div.col-left {
+  float: left;
+}
+/* line 251, /coding/projects/UDA/site/views/styles.scss */
+div.col-left ul.images {
+  margin: 0px 0px 0px 5px;
+  padding: 0px;
+}
+/* line 255, /coding/projects/UDA/site/views/styles.scss */
+div.col-left ul.images li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+/* line 263, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt {
+  width: 148px;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: left;
+}
+/* line 269, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt ul {
+  margin: 0px 0px 14px 0px;
+  padding: 0px;
+}
+/* line 273, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt ul li {
+  list-style-type: none;
+}
+/* line 277, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 282, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.black {
+  color: black;
+}
+/* line 283, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.brown {
+  color: #74533c;
+}
+/* line 284, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.purple {
+  color: #6c29f4;
+}
+/* line 285, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.green {
+  color: #199d3b;
+}
+/* line 286, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.orange {
+  color: #ee7033;
+}
+/* line 287, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.blue {
+  color: #2b92fb;
+}
+/* line 288, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.red {
+  color: #e7302a;
+}
+/* line 289, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt h4.yellow {
+  color: #ebeb25;
+}
+
+/* line 294, /coding/projects/UDA/site/views/styles.scss */
+div.col-belt:last-of-type {
+  margin-right: 0px;
+  width: 138px;
+}
+
+/*  St Geroge Roots and UDA Thai Boxing page*/
+/* line 301, /coding/projects/UDA/site/views/styles.scss */
+div.sub-heading {
+  color: #ee7033;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 308, /coding/projects/UDA/site/views/styles.scss */
+span.section-heading {
+  text-transform: uppercase;
+  color: #e7302a;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* line 317, /coding/projects/UDA/site/views/styles.scss */
+div.quote p {
+  color: #ee7033;
+  font-weight: 500;
+}
+/* line 322, /coding/projects/UDA/site/views/styles.scss */
+div.quote span.quote {
+  font-size: 20px;
+  font-style: italic;
+  color: #ee7033;
+  font-weight: 500;
+}
+
+/* line 330, /coding/projects/UDA/site/views/styles.scss */
+div.col-half {
+  float: left;
+  color: #ee7033;
+  font-size: 14px;
+}
+/* line 337, /coding/projects/UDA/site/views/styles.scss */
+div.col-half h4 {
+  font-size: 14px;
+  color: #e7302a;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+/* line 348, /coding/projects/UDA/site/views/styles.scss */
+div.team span.instructor {
+  color: #e7302a;
+}
+
+/* line 353, /coding/projects/UDA/site/views/styles.scss */
+p.scroll {
+  color: #ee7033;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 362, /coding/projects/UDA/site/views/styles.scss */
+div.facilities h2 {
+  color: #e7302a;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: bold;
+}
+/* line 370, /coding/projects/UDA/site/views/styles.scss */
+div.facilities h3 {
+  color: #ee7033;
+  font-size: 16px;
+  text-transform: none;
+  padding-bottom: 20px;
+}
+/* line 378, /coding/projects/UDA/site/views/styles.scss */
+div.facilities h4 {
+  color: #ee7033;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/* line 385, /coding/projects/UDA/site/views/styles.scss */
+div.facilities p {
+  margin-top: 0px;
+}
+
+/* line 391, /coding/projects/UDA/site/views/styles.scss */
+div.experience-uda {
+  width: 530px;
+}
+/* line 393, /coding/projects/UDA/site/views/styles.scss */
+div.experience-uda h4 {
+  font-weight: 700;
+}
+/* line 397, /coding/projects/UDA/site/views/styles.scss */
+div.experience-uda h3 {
+  font-size: 16pt;
+}
+
+/* line 404, /coding/projects/UDA/site/views/styles.scss */
+div.japan-brazil-sydney p.heading {
+  color: #e7302a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 413, /coding/projects/UDA/site/views/styles.scss */
+div.japan-brazil-sydney p.heading-italic {
+  color: #e7302a;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 422, /coding/projects/UDA/site/views/styles.scss */
+div.japan-brazil-sydney p.blurb {
+  color: #ee7033;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 428, /coding/projects/UDA/site/views/styles.scss */
+div.japan-brazil-sydney p.title {
+  color: #ee7033;
+}
+
+/* line 436, /coding/projects/UDA/site/views/styles.scss */
+div.media p {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 441, /coding/projects/UDA/site/views/styles.scss */
+div.media p.date {
+  color: #e7302a;
+}
+/* line 445, /coding/projects/UDA/site/views/styles.scss */
+div.media p.caption {
+  color: #ee7033;
+  padding-bottom: 10px;
+}
+/* line 450, /coding/projects/UDA/site/views/styles.scss */
+div.media hr {
+  color: #d8d8d5;
+  margin-bottom: 10px;
+  clear: both;
+}
+/* line 456, /coding/projects/UDA/site/views/styles.scss */
+div.media ul {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+/* line 460, /coding/projects/UDA/site/views/styles.scss */
+div.media ul li {
+  list-style-type: none;
+  margin-bottom: 50px;
+  margin-right: 40px;
+  float: left;
+}
+/* line 468, /coding/projects/UDA/site/views/styles.scss */
+div.media img {
+  width: 380px;
+}
+
+/* line 476, /coding/projects/UDA/site/views/styles.scss */
+div.online-form {
+  position: relative;
+}
+/* line 480, /coding/projects/UDA/site/views/styles.scss */
+div.online-form div.instructions {
+  width: 340px;
+  padding-bottom: 50px;
+}
+/* line 483, /coding/projects/UDA/site/views/styles.scss */
+div.online-form div.instructions h2 {
+  text-transform: none;
+}
+/* line 486, /coding/projects/UDA/site/views/styles.scss */
+div.online-form div.instructions h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 492, /coding/projects/UDA/site/views/styles.scss */
+div.online-form div.bottom {
+  clear: both;
+  padding-top: 20px;
+}
+/* line 497, /coding/projects/UDA/site/views/styles.scss */
+div.online-form h3 {
+  font-size: 20px;
+  text-transform: none;
+}
+/* line 502, /coding/projects/UDA/site/views/styles.scss */
+div.online-form h4 {
+  color: #e7302a;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 508, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.location {
+  text-transform: uppercase;
+  color: #ee7033;
+  font-size: 14px;
+}
+/* line 514, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.orange {
+  color: #ee7033;
+}
+/* line 518, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.red {
+  color: #e7302a;
+}
+/* line 523, /coding/projects/UDA/site/views/styles.scss */
+div.online-form label.details {
+  font-size: 16px;
+  float: left;
+  font-weight: 700;
+}
+/* line 529, /coding/projects/UDA/site/views/styles.scss */
+div.online-form label.orange {
+  color: #ee7033;
+}
+/* line 533, /coding/projects/UDA/site/views/styles.scss */
+div.online-form label.red {
+  color: #e7302a;
+}
+/* line 536, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.input {
+  display: block;
+  overflow: hidden;
+  padding: 0 4px 0 6px;
+}
+/* line 543, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.input input {
+  border: none;
+  border-bottom: 1px solid #e7302a;
+  width: 100%;
+}
+/* line 551, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.button {
+  position: absolute;
+  right: 0px;
+  font-size: 20px;
+  clear: both;
+}
+/* line 554, /coding/projects/UDA/site/views/styles.scss */
+div.online-form span.button a {
+  color: #e7302a;
+}
+
+/* line 563, /coding/projects/UDA/site/views/styles.scss */
+div.contact {
+  position: relative;
+}
+/* line 567, /coding/projects/UDA/site/views/styles.scss */
+div.contact hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 572, /coding/projects/UDA/site/views/styles.scss */
+div.contact h3 {
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 400;
+}
+/* line 578, /coding/projects/UDA/site/views/styles.scss */
+div.contact h4 {
+  color: #e7302a;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+/* line 585, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.location {
+  text-transform: uppercase;
+  color: #ee7033;
+  font-size: 14px;
+}
+/* line 591, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.orange {
+  color: #ee7033;
+}
+/* line 595, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.red {
+  color: #e7302a;
+}
+/* line 600, /coding/projects/UDA/site/views/styles.scss */
+div.contact label.details {
+  color: #e7302a;
+  float: left;
+  font-weight: 700;
+  font-size: 14px;
+}
+/* line 607, /coding/projects/UDA/site/views/styles.scss */
+div.contact label.orange {
+  color: #ee7033;
+}
+/* line 611, /coding/projects/UDA/site/views/styles.scss */
+div.contact label.red {
+  color: #e7302a;
+}
+/* line 614, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.input {
+  display: block;
+  overflow: hidden;
+  padding: 0 4px 0 6px;
+}
+/* line 621, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.input input {
+  border: none;
+  border-bottom: 1px solid #e7302a;
+  width: 100%;
+}
+/* line 629, /coding/projects/UDA/site/views/styles.scss */
+div.contact p.question {
+  color: #ee7033;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/* line 635, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.button {
+  position: absolute;
+  right: 0px;
+  font-size: 20px;
+  clear: both;
+}
+/* line 638, /coding/projects/UDA/site/views/styles.scss */
+div.contact span.button a {
+  color: #e7302a;
+}
+
+/* line 649, /coding/projects/UDA/site/views/styles.scss */
+#footer {
+  clear: both;
+  margin-top: 30px;
+  font-size: 10px;
+  border-top: 1px solid #878786;
+}
+
+/* line 657, /coding/projects/UDA/site/views/styles.scss */
+.fixed {
+  position: fixed !important;
+  top: 0px;
+}
+
+/* line 662, /coding/projects/UDA/site/views/styles.scss */
+div.free-trail {
+  min-height: 761px;
+}
+
+/* line 666, /coding/projects/UDA/site/views/styles.scss */
+img.free-trial {
+  margin-top: 200px;
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+
+/* line 675, /coding/projects/UDA/site/views/styles.scss */
+a.red-link {
+  color: #e7302a;
+}

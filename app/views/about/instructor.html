@@ -1,0 +1,9 @@
+<div class="row content">
+  <div class="col-md-4">
+    <img class="img-responsive" ng-src="{{instructorCtrl.instructor.image}}"/>
+  </div>
+  <div class="col-md-8">
+    <h3 class="text-center instructor {{instructorCtrl.instructor.belt}}">{{instructorCtrl.instructor.name}}</h3>
+    <div ng-bind-html="instructorCtrl.instructor.body"></div>
+  </div>
+</div>

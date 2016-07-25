@@ -1,0 +1,239 @@
+/* Belt Colours */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=63be6a80-a2f4-4d15-8416-993837079485");
+
+@font-face {
+  font-family: "Univers W01_R4";
+  src: url("fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix");
+  src: url("fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix") format("eot"), url("fonts/1eaf27c0-f4de-4273-9f4c-1b3236ad2f3c.woff") format("woff"), url("fonts/9b913baf-b1f0-47d2-8c76-42f59650058f.ttf") format("truetype"), url("fonts/0abcce12-2274-4ee7-b6d5-0066b5f5f670.svg#0abcce12-2274-4ee7-b6d5-0066b5f5f670") format("svg");
+  font-weight: 400;
+  font-style: Regular;
+}
+
+@font-face {
+  font-family: "Univers W01_I4";
+  src: url("fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix");
+  src: url("fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix") format("eot"), url("fonts/34e6ea2e-62b2-49c9-b5e6-128fddfd9f6c.woff") format("woff"), url("fonts/01a871ba-586f-4d5e-8924-d4ec3b44f723.ttf") format("truetype"), url("fonts/5ebb44ef-5450-4b20-9612-66b2a127178b.svg#5ebb44ef-5450-4b20-9612-66b2a127178b") format("svg");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: "Univers W01_n2";
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix");
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix") format("eot"), url("fonts/609beecf-8d23-4a8c-bbf5-d22ee8db2fc9.woff") format("woff"), url("fonts/a6595b8d-d4a3-4f01-bf21-0b53617d4b1c.ttf") format("truetype"), url("fonts/1cd9ef2f-b358-4d39-8628-6481d9e1c8ce.svg#1cd9ef2f-b358-4d39-8628-6481d9e1c8ce") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Univers Next W04_B5";
+  src: url("fonts/89a581cf-ec83-47e4-8a11-201a6f3547fe.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers Next W04";
+  src: url("fonts/89a581cf-ec83-47e4-8a11-201a6f3547fe.eot?#iefix");
+  src: url("fonts/89a581cf-ec83-47e4-8a11-201a6f3547fe.eot?#iefix") format("eot"), url("fonts/1b7b489a-ec91-4d5e-b0dc-05ee846eb93a.woff") format("woff"), url("fonts/ce0c8ace-83c6-41d6-8332-efbcd4af3f88.ttf") format("truetype"), url("fonts/a0d25bc8-1bcd-4f5c-a4ce-6cd1ad418954.svg#a0d25bc8-1bcd-4f5c-a4ce-6cd1ad418954") format("svg");
+  font-weight: 500;
+  font-style: Bold Italic;
+}
+
+@font-face {
+  font-family: "Univers W01_n7";
+  src: url("fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix") format("eot");
+}
+
+@font-face {
+  font-family: "Univers W01";
+  src: url("fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix");
+  src: url("fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix") format("eot"), url("fonts/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff") format("woff"), url("fonts/091058d4-36b2-43f6-80d3-16c88e098061.ttf") format("truetype"), url("fonts/827d22bc-e38b-4ccf-8a21-1f9aaa76e402.svg#827d22bc-e38b-4ccf-8a21-1f9aaa76e402") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.page {
+  min-height: 800px;
+}
+
+/* ------- Standard Body Components ---- */
+
+/* Header logo */
+.brand-link {
+  position: relative;
+  display: block;
+}
+.brand-link:before {
+  content: '';
+  position: absolute;
+  top: 83px;
+  left: 0;
+  height: 25px;
+  right: 0;
+  background: #e7302a;
+  z-index: -1;
+  border-bottom: 3px solid #ee7033;
+}
+
+/* Navigation */
+.nav > li > a, .dropdown-menu > li > a  {
+  color: #231f20;
+  font-family: "Univers W01";
+  font-weight: 500;
+  font-size: 10pt;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #e7302a;
+  color: #fff;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li {
+    width: 100%;
+  }
+  .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+.row {
+  margin-top: 25px;
+}
+
+.row.content {
+  margin-top: 0px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+.lead-header {
+  margin-top: 0px;
+}
+
+h2 {
+  color: #e7302a;
+  text-transform: uppercase;
+  font-family: "Univers W01";
+  font-weight: 600;
+}
+
+h3 {
+  color: #e7302a;
+  text-transform: uppercase;
+  font-family: "Univers W01";
+  font-weight: 600;
+}
+
+h4 {
+  color: #ee7033;
+  font-family: "Univers W01";
+  font-weight: 600;
+}
+
+p {
+  color: #878786;
+  font-family: "Univers W01";
+}
+
+a, a:visited {
+  color: #e7302a;
+  text-decoration: none;
+}
+
+.full-image {
+  width: 100%;
+}
+
+.quote > *, .quote {
+  color: #ee7033;
+  font-family: "Univers W01";
+}
+
+.img-responsive {
+  padding-bottom: 20px;
+}
+.panel-title a:hover {
+  text-decoration: none;
+}
+
+.instructor:after {
+  content: "";
+  display: inline-block;
+  background: url("/images/belts.png") no-repeat top right;
+  width: 165px;
+  height: 26px;
+}
+.instructor.white:after {
+  background-position: 0px -120px
+}
+.instructor.blueafter {
+  background-position: 0px -120px
+}
+.instructor.purple:after {
+  background-position: 0px -63px
+}
+.instructor.brown:after {
+  background-position: 0px -92px
+}
+.instructor.black:after {
+  background-position: 0px -123px
+}
+
+.instructor.black1:after {
+  background-position: 0px -154px
+}
+
+.instructor.black2:after {
+  background-position: 0px -120px
+}
+
+.instructor.black3:after {
+  background-position: 0px -120px
+}
+
+.instructor.black4:after {
+  background-position: 0px -120px
+}
+.instructor.none:after {
+  background-position: 0px -458px
+}
