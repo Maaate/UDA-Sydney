@@ -16,7 +16,6 @@ angular.module('udaApp')
     ];
 
     var self = this;
-    self.body = null;
 
     self.instructor = null;
 
