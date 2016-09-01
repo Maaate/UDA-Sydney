@@ -280,3 +280,11 @@ a, a:visited {
 .ranks h4.yellow {
   color: yellow;
 }
+
+.our-classes span {
+  color: #ee7033;
+}
+
+span.age-group {
+  color: #e7302a;
+}

@@ -17,7 +17,7 @@
     <!-- endbuild -->
 
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="styles/vendor/blueimp/bootstrap-image-gallery.min.css">
+
 
 </head>
 <body ng-app="udaApp">
@@ -41,9 +41,7 @@
                 <nav class="navbar navbar-default" ng-controller="NavigationCtrl">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#navbar"
-                                    aria-expanded="false" aria-controls="navbar">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -52,17 +50,17 @@
                         </div>
                         <div id="navbar" class="navbar-collapse collapse nav-stacked">
                             <ul class="nav navbar-nav">
-                                <li ng-class="{ active: isHomepage()}"><a ng-href="/#/">Home</a></li>
+                                <li ng-class="{ active: isHomepage()}"  data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/">Home</a></li>
                                 <li ng-class="{ active: isActive('/about')}" class="dropdown">
                                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                        aria-expanded="false">About <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a ng-href="/#/about/experience-uda">Experience UDA</a></li>
-                                        <li><a ng-href="/#/about/st-george-roots">St. George Roots + UDA Thai Boxing</a>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/about/experience-uda">Experience UDA</a></li>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/about/st-george-roots">St. George Roots + UDA Thai Boxing</a>
                                         </li>
-                                        <li><a ng-href="/#/about/our-team">Our Team</a></li>
-                                        <li><a ng-href="/#/about/our-facilities">Our Facilities</a></li>
-                                        <li><a ng-href="/#/about/japan-brazil-sydney">From Japan to Brazil to Sydney</a>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/about/our-team">Our Team</a></li>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/about/our-facilities">Our Facilities</a></li>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/about/japan-brazil-sydney">From Japan to Brazil to Sydney</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -70,15 +68,15 @@
                                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                        aria-expanded="false">Timetable <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a ng-href="/#/timetable/timetable">Timetable</a></li>
-                                        <li><a ng-href="#/timetable/our-classes">Our Classes</a></li>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#/timetable/timetable">Timetable</a></li>
+                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="#/timetable/our-classes">Our Classes</a></li>
                                     </ul>
                                 </li>
-                                <li ng-class="{ active: isActive('/rankings')}"><a ng-href="/#rankings">Rankings</a>
+                                <li ng-class="{ active: isActive('/rankings')}" data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#rankings">Rankings</a>
                                 </li>
-                                <li ng-class="{ active: isActive('/media')}"><a ng-href="/#media">Media</a></li>
-                                <li ng-class="{ active: isActive('/contact')}"><a ng-href="/#contact">Contact</a></li>
-                                <li ng-class="{ active: isActive('/links')}"><a ng-href="/#links">Links</a></li>
+                                <li ng-class="{ active: isActive('/media')}" data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#media">Media</a></li>
+                                <li ng-class="{ active: isActive('/contact')}" data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#contact">Contact</a></li>
+                                <li ng-class="{ active: isActive('/links')}" data-toggle="collapse" data-target=".navbar-collapse.in"><a ng-href="/#links">Links</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
@@ -166,7 +164,7 @@
 <!-- endbuild -->
 
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-<script src="scripts/vendor/blueimp/bootstrap-image-gallery.min.js"></script>
+
 
 </body>
 </html>
