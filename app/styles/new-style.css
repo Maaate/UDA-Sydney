@@ -288,3 +288,125 @@ a, a:visited {
 span.age-group {
   color: #e7302a;
 }
+
+
+/* timetable */
+@media only screen and (min-width : 768px) {
+  .day {
+    width: 14.25%;
+  }
+  .xlarge-private {
+    height: 580px;
+  }
+  .large-private {
+    height: 180px;
+  }
+  .medium-private {
+    height: 120px;
+  }
+}
+@media only screen and (max-width : 768px) {
+  .day {
+    width: 100%;
+  }
+  .timetable div.classes {
+    width: 100%
+  }
+  .timetable div.fourty, .timetable div.half, .timetable div.one, .xlarge-private, .large-private, .medium-private {
+    height: 60px;
+  }
+  .classes .time {
+    float: right;
+    padding-right: 10px;
+  }
+  .classes .name {
+    float: left;
+    padding-left: 10px;
+  }
+
+  .timetable div.classes div div {
+    width: 100%;
+  }
+  .day-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: inline-block;
+  }
+}
+
+/* flexbox for timetable*/
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media all and (max-width: 1300px) {
+  .flex-container {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+}
+
+.calendar-column {
+  background: tomato;
+  padding: 10px;
+  width: 100px;
+  height: 400px;
+  margin-top: 10px;
+  color: Black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-day {
+  padding: 0;
+  margin: 0;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.event {
+  background: green;
+  padding: 10px;
+  width: 100px;
+  height: 400px;
+  margin-top: 10px;
+  color: Black;
+  font-weight: bold;
+  text-align: center;
+}
+.timetable  p {
+  color: black;
+}
+
+.timetable div.jiu-jitsu  p {
+  color: white;
+}
+
+.day-header {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.timetable div.header {
+  border: none;
+}
