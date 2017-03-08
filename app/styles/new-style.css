@@ -410,3 +410,16 @@ span.age-group {
 .timetable div.header {
   border: none;
 }
+
+.video-playbox {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.play-overlay {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+}
