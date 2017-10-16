@@ -397,7 +397,7 @@ span.age-group {
   color: black;
 }
 
-.timetable div.jiu-jitsu  p {
+.timetable div.jiu-jitsu  p, .timetable div.functional  p {
   color: white;
 }
 
