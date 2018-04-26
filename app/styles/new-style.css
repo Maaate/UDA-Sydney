@@ -296,13 +296,16 @@ span.age-group {
     width: 14.25%;
   }
   .xlarge-private {
-    height: 580px;
+    height: 540px;
   }
   .large-private {
     height: 180px;
   }
   .medium-private {
     height: 120px;
+  }
+  .empty {
+    height: 60px;
   }
 }
 @media only screen and (max-width : 768px) {
@@ -312,8 +315,11 @@ span.age-group {
   .timetable div.classes {
     width: 100%
   }
-  .timetable div.fourty, .timetable div.half, .timetable div.one, .xlarge-private, .large-private, .medium-private {
+  .timetable div.fourty, .timetable div.half, .timetable div.one, .xlarge-private, .large-private, .medium-private, .timetable div.nintey {
     height: 60px;
+  }
+  .timetable div.empty {
+    height: 0px;
   }
   .classes .time {
     float: right;
@@ -397,7 +403,7 @@ span.age-group {
   color: black;
 }
 
-.timetable div.jiu-jitsu  p, .timetable div.functional  p {
+.timetable div.jiu-jitsu  p, .timetable div.functional  p, .timetable div.women-only p {
   color: white;
 }
 
